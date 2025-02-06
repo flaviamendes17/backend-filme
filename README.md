@@ -30,7 +30,7 @@ As seguintes dependências são usadas no projeto:
 "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "expresse": "^1.0.2",
+    "express": "^1.0.2",
     "nodemon": "^3.1.9",
     "uuid": "^11.0.5"
   }
