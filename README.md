@@ -26,6 +26,31 @@ src/
 
 ## **3. Dependências**
 As seguintes dependências são usadas no projeto:
+
+```json
+{
+  "dependencies": {
+    "cors": "^2.8.5"
+    "dotenv": "^16.4.7"
+    "express": "^4.21.2",
+    "express": "^4.21.2"
+    "nodemon": "^3.1.9"
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
+```
+
+Instale-as com:
+```bash
+npm install
+```
+
+
+## **3. Dependências**
+As seguintes dependências são usadas no projeto:
 "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
