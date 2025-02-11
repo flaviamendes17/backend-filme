@@ -1,14 +1,16 @@
 const express = require('express');
+
+require('dotenv').config();
 const cors = require('cors');
 const filmeRoutes = require('./src/routes/filmeRoutes');
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
 
-app.use('/filmes', filmeRoutes);
+app.use('/api', filmeRoutes);
 
 app.get('/', (req, res) => {
   res.send('Tá funcionando!');
